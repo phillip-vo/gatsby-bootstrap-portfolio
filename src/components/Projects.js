@@ -17,7 +17,7 @@ export default function Projects() {
         </Col>
       </Row>
       <Row className="my-5 py-5">
-        <Col className="text-center">
+        <Col xs={12} lg={6} className="text-center">
           <StaticImage
             src="../images/daniel-korpai-aUmq85-2V7I-unsplash.jpg"
             alt="Laptop image by Daniel Korpai"
@@ -25,7 +25,7 @@ export default function Projects() {
             className="rounded shadow opacity-75"
           />
         </Col>
-        <Col>
+        <Col xs={12} lg={6} className="my-5">
           <span className="display-6">Retrovure Video Game Store</span>
           <hr />
           <p>
@@ -56,7 +56,7 @@ export default function Projects() {
         </Col>
       </Row>
       <Row className="my-5 py-5">
-        <Col>
+        <Col xs={12} lg={6} className="my-5">
           <span className="display-6">Web Application with ORM</span>
           <hr />
           <p>
@@ -89,7 +89,7 @@ export default function Projects() {
             />
           </div>
         </Col>
-        <Col className="text-center">
+        <Col xs={12} lg={6} className="text-center">
           <StaticImage
             src="../images/daniel-korpai-pKRNxEguRgM-unsplash.jpg"
             alt="Laptop image by Daniel Korpai"
