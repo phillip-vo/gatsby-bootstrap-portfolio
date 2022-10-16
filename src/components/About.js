@@ -14,14 +14,12 @@ export default function About() {
             width={400}
           />
         </Col>
-        <Col xs={12} lg={6}>
-          <span className="h1" id="about">
+        <Col xs={12} lg={6} className="my-5">
+          <span className="h2" id="about">
             Who Am I
           </span>
-          <span className="small mx-2">
-            I'm not really sure{" "}
-            <FontAwesomeIcon icon="fa-regular fa-face-sad-cry" size="2x" />
-          </span>
+          <span className="small mx-2">I'm not really sure </span>
+          <FontAwesomeIcon icon="fa-regular fa-face-sad-cry" size="2x" />
           <hr />
           <div className="d-flex flex-column gap-3">
             <span className="display-6">

@@ -18,10 +18,7 @@ export default function Hero() {
           </div>
           <div>
             <span className="h2">I'm</span>
-            <span
-              className="display-5 font-weight-bold mx-2"
-              style={{ fontWeight: "500" }}
-            >
+            <span className="display-4 mx-2" style={{ fontWeight: "500" }}>
               Phillip Vo
             </span>
           </div>

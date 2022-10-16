@@ -29,8 +29,8 @@ export default function NavigationBar() {
           >
             Skills
           </a>
-          <Link to="/github" className="nav-item nav-link mx-3">
-            Github
+          <Link to="/blogs" className="nav-item nav-link mx-3">
+            Blogs
           </Link>
           <Link to="/resume">
             <Button variant="outline-dark" className="rounded-pill mx-3 px-3">
