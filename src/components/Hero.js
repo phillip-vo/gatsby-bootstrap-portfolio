@@ -44,7 +44,7 @@ export default function Hero() {
         <Col xs={12} lg={6} className="text-center">
           <StaticImage
             src="../images/man-with-blazer-flip.png"
-            alt="man wearing blazer drawing"
+            alt="man in blazer drawing by Pablo Stanley"
             placeholder="blurred"
             width={400}
           />

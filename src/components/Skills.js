@@ -23,7 +23,7 @@ export default function Skills() {
         Skills <FontAwesomeIcon icon="fa-regular fa-face-surprise" size="lg" />
       </span>
       <hr />
-      <Row className="gap-3">
+      <Row className="gap-3 justify-content-center">
         {skills.map(skill => (
           <div
             style={{ width: "10rem" }}

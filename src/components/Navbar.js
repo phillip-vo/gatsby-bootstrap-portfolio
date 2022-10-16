@@ -12,9 +12,13 @@ export default function NavigationBar() {
       <Navbar.Toggle aria-controls="responsive-navbar-nav" />
       <Navbar.Collapse id="responsive-navbar-nav">
         <Nav className="text-center ms-auto">
-          <Link to="/about" className="nav-item nav-link mx-3">
+          <a
+            href="#about"
+            className="nav-item nav-link mx-3"
+            style={{ cursor: "pointer" }}
+          >
             About
-          </Link>
+          </a>
           <Link to="/projects" className="nav-item nav-link mx-3">
             Projects
           </Link>
