@@ -1,7 +1,7 @@
 import React from "react"
 import "bootstrap/dist/css/bootstrap.min.css"
-import { Navbar, Nav, Button, Container } from "react-bootstrap"
-import { Link } from "gatsby"
+import { Navbar, Nav, Button } from "react-bootstrap"
+import { Link, navigate } from "gatsby"
 
 export default function NavigationBar() {
   return (
@@ -15,12 +15,16 @@ export default function NavigationBar() {
           <Link to="/about" className="nav-item nav-link mx-3">
             About
           </Link>
-          <Link to="/blog" className="nav-item nav-link mx-3">
-            Blog
+          <Link to="/projects" className="nav-item nav-link mx-3">
+            Projects
           </Link>
-          <Link to="/features" className="nav-item nav-link mx-3">
-            Features
-          </Link>
+          <a
+            href="#skills"
+            className="nav-item nav-link mx-3"
+            style={{ cursor: "pointer" }}
+          >
+            Skills
+          </a>
           <Link to="/github" className="nav-item nav-link mx-3">
             Github
           </Link>
