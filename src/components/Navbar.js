@@ -19,9 +19,9 @@ export default function NavigationBar() {
           >
             About
           </a>
-          <Link to="/projects" className="nav-item nav-link mx-3">
+          <a href="#projects" className="nav-item nav-link mx-3">
             Projects
-          </Link>
+          </a>
           <a
             href="#skills"
             className="nav-item nav-link mx-3"

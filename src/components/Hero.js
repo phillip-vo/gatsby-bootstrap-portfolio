@@ -19,7 +19,7 @@ export default function Hero() {
           <div>
             <span className="h2">I'm</span>
             <span className="display-4 mx-2" style={{ fontWeight: "500" }}>
-              Phillip Vo
+              John Doe
             </span>
           </div>
           <p className="mt-3">

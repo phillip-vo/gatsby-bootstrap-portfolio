@@ -27,7 +27,7 @@ export default function Blogs() {
           <span className="h2">Latest Blogs</span>
           <span className="small mx-2">These are just here for looks </span>
           <FontAwesomeIcon icon="fa-regular fa-face-smile-wink" size="2x" />
-          <div className="d-flex gap-5 my-5">
+          <div className="d-flex gap-5 my-5 justify-content-center">
             {data.allMdx.nodes.map(node => (
               <Card border="light shadow">
                 <Card.Body>
